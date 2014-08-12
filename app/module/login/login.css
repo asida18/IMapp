@@ -1,0 +1,27 @@
+/*
+    CSS for the login module.
+    Do not leave file empty.
+*/
+
+.hidden {
+    display:none;
+}
+
+fieldset {
+    height:25px;
+    width:450px;
+    border-color:black;
+    border-radius:5px;
+}
+
+.login {
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(61, 150, 247, 1);
+    height: 30px;
+    width: 86px;
+}
+
+.loginForm {
+    margin:15px 0px 0px -7px;
+}
