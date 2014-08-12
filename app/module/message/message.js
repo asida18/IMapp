@@ -29,7 +29,7 @@
         }
         
         function serverListener() {
-            socket = io.connect('http://192.168.1.239:10000');
+            socket = io.connect('http://{YOUR ADDRESS}:10000');
             document.querySelector('.loginForm').classList.add('hidden');
             document.querySelector('#chatRoom').classList.remove('hidden');
 
